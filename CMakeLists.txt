@@ -4,7 +4,11 @@ project(tutorial1)
 
 
 set(CMAKE_CXX_STANDARD 11)
-set(SOURCE_FILES main.cpp)
+
+file(GLOB COMMON_SRC common/*.cpp)
+file(GLOB shaders SimpleTransform.vertexshader SingleColor.fragmentshader)
+
+set(SOURCE_FILES main.cpp ${COMMON_SRC} ${shaders})
 
 
 
