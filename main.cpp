@@ -16,6 +16,7 @@ using namespace glm;
 
 int main( void )
 {
+    std::cout << "START" << std::endl;
     // Initialise GLFW
     if( !glfwInit() )
     {
