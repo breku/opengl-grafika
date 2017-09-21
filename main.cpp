@@ -9,7 +9,7 @@ int createWindow();
 
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    std::cout << "Hello, World jacek!" << std::endl;
 
     // Initialise GLFW
     if( !glfwInit() )
